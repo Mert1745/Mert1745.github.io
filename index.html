@@ -7,13 +7,13 @@
 <meta name="description" content="Mert Köse, Senior Java Developer, writing about tech changes and his own opinions on them.">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=fa057276">
+<link rel="stylesheet" href="style.css?v=16051776">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <div class="container nav__bar">
-    <a class="nav__brand" href="index.html"><img src="logo.png" alt="" width="40" height="40"><span>Mert Köse</span></a>
+    <a class="nav__brand" href="index.html"><img src="logo.png" alt="Mert Köse, home" width="40" height="40"></a>
     <nav aria-label="Main" class="nav__links"><a href="index.html#blog">Blog</a><a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav>
   </div>
 </header>
@@ -21,21 +21,21 @@
 <section class="hero" aria-labelledby="hero-title">
   <div class="container">
     <div class="hero__text">
-      <h1 id="hero-title">Mert Köse, Senior Java Developer</h1>
+      <h1 id="hero-title">Mert Köse | A Developer Sketches</h1>
       <p class="lead">Writing about tech changes and my own opinions on them.</p>
     </div>
     <div class="index" id="blog">
       <h2 class="visually-hidden">Blog</h2>
       <ol class="index__list">
-      <li class="index__row index__row--lead"><time class="num" datetime="2026-02-22">Feb 22, 2026</time><div class="index__main"><h3><a href="posts/notes-to-self-after-i-released-a-site-using-claude-ai-heavily.html">Notes to self after I released a site using Claude AI heavily</a></h3><div class="index__excerpt"><p>Recently, I released a website, ogzkritik.com for the readers of the gaming magazine Oyungezer, which I contribute to as a writer. It’s basically a dashboard that indexes articles/reviews so you can easily find the issue number, score and author of the article you are looking for. Also, there are some fun stats with easy-to-use filters to mess with. Oyungezer has released the whole archive digitally but the ones until 2025 are available for free. OGZ Kritik takes an advantage of that so simply clicking the card will take you to exact issue that has the article you clicked on.</p>
+      <li class="index__row index__row--lead"><div class="index__head"><time class="num" datetime="2026-02-22">Feb 22, 2026</time><h3><a href="posts/notes-to-self-after-i-released-a-site-using-claude-ai-heavily.html">Notes to self after I released a site using Claude AI heavily</a></h3></div><div class="index__main"><div class="index__excerpt"><p>Recently, I released a website, ogzkritik.com for the readers of the gaming magazine Oyungezer, which I contribute to as a writer. It’s basically a dashboard that indexes articles/reviews so you can easily find the issue number, score and author of the article you are looking for. Also, there are some fun stats with easy-to-use filters to mess with. Oyungezer has released the whole archive digitally but the ones until 2025 are available for free. OGZ Kritik takes an advantage of that so simply clicking the card will take you to exact issue that has the article you clicked on.</p>
 <p>This site had existed way before, about 10 years ago I believe. The idea is not new but after seeing Claude improved itself massively, I decided to reawake the site because</p>
 <ul>
 <li>It didn’t look like a big Project</li>
 <li>I wanted to try how leaning on AI plays out in a real-world project</li>
 </ul></div><a class="index__more" href="posts/notes-to-self-after-i-released-a-site-using-claude-ai-heavily.html">Read the full post</a></div></li>
-      <li class="index__row"><time class="num" datetime="2024-05-17">May 17, 2024</time><div class="index__main"><h3><a href="posts/thinking-about-changes-and-concepts-in-kotlin-that-doesnt-exists-in-java.html">Thinking about changes and concepts in Kotlin that doesn’t exists in Java</a></h3><div class="index__excerpt"><p>My new project in adesso Turkey uses Kotlin in some services. It is the first time that I am using Kotlin and not gonna lie, I liked it so far. It gives you the feeling that this language is modern and has nice approaches to some problems. And that got me thinking about these solutions, why Kotlin decided that and such. And interesting enough that Kotlin doesn’t use some features Java has eg. checked exceptions. So I decided to break down these features to understand the general mindset behind Kotlin (and also Java)</p>
+      <li class="index__row"><div class="index__head"><time class="num" datetime="2024-05-17">May 17, 2024</time><h3><a href="posts/thinking-about-changes-and-concepts-in-kotlin-that-doesnt-exists-in-java.html">Thinking about changes and concepts in Kotlin that doesn’t exists in Java</a></h3></div><div class="index__main"><div class="index__excerpt"><p>My new project in adesso Turkey uses Kotlin in some services. It is the first time that I am using Kotlin and not gonna lie, I liked it so far. It gives you the feeling that this language is modern and has nice approaches to some problems. And that got me thinking about these solutions, why Kotlin decided that and such. And interesting enough that Kotlin doesn’t use some features Java has eg. checked exceptions. So I decided to break down these features to understand the general mindset behind Kotlin (and also Java)</p>
 <p>One of the biggest advantages of Kotlin is that it can be used as both functional and object oriented. While that might raise a question to Java developers in that they are used to build a hierarchy no matter what they are writing, I think this flexible approach is better even for OOP approached apps. Why do we create a class for utilization methods anyway? Zipping everything inside a class, especially if you care about S (Single responsibility) from SOLID principle, results in lots of files, which make things harder to follow.</p></div><a class="index__more" href="posts/thinking-about-changes-and-concepts-in-kotlin-that-doesnt-exists-in-java.html">Read the full post</a></div></li>
-      <li class="index__row"><time class="num" datetime="2024-05-15">May 15, 2024</time><div class="index__main"><h3><a href="posts/concerns-about-the-future-of-java-ai.html">Concerns about the future of Java &amp; AI</a></h3><div class="index__excerpt"><p>Ah yes, a hot topic: AI. But how can I not write anything about a thing that will change billions of people’s life? And while so many people still think they are just another tool? NO they are not. In it’s second year, ChatGPT published its 5th version of its GPT algorithm with GPT-4o and every version puts something into its predecessor. Even Gordon Moore didn’t estimate this kind of speed in that even this article will be outdated just after several months.</p>
+      <li class="index__row"><div class="index__head"><time class="num" datetime="2024-05-15">May 15, 2024</time><h3><a href="posts/concerns-about-the-future-of-java-ai.html">Concerns about the future of Java &amp; AI</a></h3></div><div class="index__main"><div class="index__excerpt"><p>Ah yes, a hot topic: AI. But how can I not write anything about a thing that will change billions of people’s life? And while so many people still think they are just another tool? NO they are not. In it’s second year, ChatGPT published its 5th version of its GPT algorithm with GPT-4o and every version puts something into its predecessor. Even Gordon Moore didn’t estimate this kind of speed in that even this article will be outdated just after several months.</p>
 <p>Thinking and making assumptions about what kind of future awaits us is not easy obviously but I want to point out my concerns about my job (some other jobs too) to proactively decide what we can do to adapt it.</p></div><a class="index__more" href="posts/concerns-about-the-future-of-java-ai.html">Read the full post</a></div></li>
       </ol>
     </div>
