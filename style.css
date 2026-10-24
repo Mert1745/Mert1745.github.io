@@ -1,5 +1,5 @@
 /* Hallmark · shape: Index-First · genre: editorial · theme: Ink (by request) · job: hire · draw: cc81e3
- * hero: Index · nav: edge-aligned · footer: letter close · imagery: none · signature: the post list is the hero, the newest title set large over an ink rule · ink: paper · copy: verbatim
+ * hero: Index · nav: edge-aligned · footer: none · imagery: none · signature: the post list is the hero, the newest title set large over an ink rule · ink: paper · copy: verbatim
  * axes: light/grotesk-sans/chromatic-teal · posture: restrained · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · pre-emit critique: P4 H5 E4 S4 R5 V4 · weakest: S, the about section could belong to any developer; kept only facts from the old site and let the type carry it */
 /* Hallmark · waive 22 · greys at zero chroma · the page is printed in plain black ink on white paper */
@@ -71,11 +71,6 @@
 .links a { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-xs) var(--space-md); padding-block: var(--space-md); font-weight: 600; text-decoration: none; }
 .links__handle { font-weight: 400; color: var(--color-rule); text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.16em; }
 
-/* footer: a letter close */
-.foot { padding-block: var(--space-2xl); }
-.foot__inner { display: grid; gap: var(--space-2xs); }
-.foot__line { font-size: var(--text-lg); color: var(--color-ink-2); }
-.foot__sign { font-size: var(--text-title); font-weight: 700; letter-spacing: -0.02em; }
 
 /* a post */
 .container--text { max-width: 51rem; }
