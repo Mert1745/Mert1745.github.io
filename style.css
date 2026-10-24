@@ -17,3 +17,5 @@ h1,h2{line-height:1.25}
 .post h3 a{text-decoration:none}
 .date{color:var(--muted);font-size:.85em}
 footer{border-top:1px solid var(--line);margin-top:48px;padding:24px 0;color:var(--muted);font-size:.9em}
+blockquote{margin:24px 0;padding:4px 18px;border-left:3px solid var(--accent);color:var(--muted);font-style:italic}
+h2{margin-top:36px}
