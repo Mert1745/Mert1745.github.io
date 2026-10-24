@@ -122,7 +122,7 @@
 .projects { padding-block: var(--section-gap-s) 0; }
 .builds { margin: var(--space-2xl) 0 0; padding: 0; list-style: none; border-top: var(--rule-hair) solid var(--color-ink); }
 .build { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--space-3xl); padding-block: var(--space-xl); border-bottom: var(--rule-hair) solid var(--color-rule); }
-.build h3 { font-size: var(--text-display-s); max-width: none; letter-spacing: var(--tracking-display); line-height: 1.02; }
+.build h3 { font-size: var(--text-3xl); max-width: none; letter-spacing: var(--tracking-display); line-height: 1.02; }
 .build h3 a { text-decoration: none; }
 .build h3 a:hover { text-decoration: underline; text-decoration-color: var(--color-accent); text-decoration-thickness: 3px; text-underline-offset: 0.12em; }
 .build__body { display: grid; gap: var(--space-md); font-size: var(--text-lg); line-height: 1.45; }
