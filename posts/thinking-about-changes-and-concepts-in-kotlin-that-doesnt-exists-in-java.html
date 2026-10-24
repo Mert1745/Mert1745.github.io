@@ -1,5 +1,27 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thinking about changes and concepts in Kotlin that doesn’t exists in Java</title><link rel="icon" type="image/png" href="../favicon.png"><link rel="stylesheet" href="../style.css"></head><body>
-<header><div class="wrap"><a class="brand" href="../index.html">Mert Köse | Developer Sketches</a><nav><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav></div></header><main class="wrap"><h1>Thinking about changes and concepts in Kotlin that doesn’t exists in Java</h1><div class="date"><time datetime="2024-05-17">May 17, 2024</time></div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thinking about changes and concepts in Kotlin that doesn’t exists in Java | Mert Köse</title>
+<meta name="description" content="A Java developer starting a Kotlin project explores the thinking behind the language.">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav__bar">
+    <a class="nav__brand" href="../index.html"><img src="../logo.png" alt="" width="40" height="40"><span>Mert Köse</span></a>
+    <nav aria-label="Main" class="nav__links"><a href="../index.html#blog">Blog</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a></nav>
+  </div>
+</header>
+<main id="main">
+<article class="article">
+  <div class="container container--text">
+    <header class="article__head"><h1>Thinking about changes and concepts in Kotlin that doesn’t exists in Java</h1><p class="article__date"><time class="num" datetime="2024-05-17">May 17, 2024</time></p></header>
+    <div class="article__body">
 <p>My new project in adesso Turkey uses Kotlin in some services. It is the first time that I am using Kotlin and not gonna lie, I liked it so far. It gives you the feeling that this language is modern and has nice approaches to some problems. And that got me thinking about these solutions, why Kotlin decided that and such. And interesting enough that Kotlin doesn’t use some features Java has eg. checked exceptions. So I decided to break down these features to understand the general mindset behind Kotlin (and also Java)</p>
 <h2>Both functional and OOP</h2>
 <p>One of the biggest advantages of Kotlin is that it can be used as both functional and object oriented. While that might raise a question to Java developers in that they are used to build a hierarchy no matter what they are writing, I think this flexible approach is better even for OOP approached apps. Why do we create a class for utilization methods anyway? Zipping everything inside a class, especially if you care about S (Single responsibility) from SOLID principle, results in lots of files, which make things harder to follow.</p>
@@ -28,4 +50,13 @@
 <h2>To Summarize</h2>
 <p>There are more differences such as coroutine, delegation, companion objects but overall, Kotlin uses advantages of being written in an environment where internet is what is now today. While it is very easy to write and more flexible than Java, it is still a use-case thing whether you want to go with Kotlin or Java.</p>
 <p>Requirements are really different now and sticking to only Java, meaning being conservative does not fit with today’s fast changing world. You might need to use AOT compiler in some services, you might need to adapt your code to be able to work with mobile apps etc. etc. Kotlin comes with great solution and it’s worth putting it into your arsenal.</p>
-<p><a href="../index.html">← All posts</a></p></main><footer id="contact"><div class="wrap">Contact: <a href="mailto:mertkose1745@gmail.com">mertkose1745@gmail.com</a> · <a href="https://github.com/Mert1745">GitHub</a> · <a href="https://www.linkedin.com/in/mertkose/">LinkedIn</a> · <a href="https://twitter.com/soganlisakiz">Twitter</a> · <a href="https://www.youtube.com/mertkose1745">YouTube</a></div></footer></body></html>
+    </div>
+    <p class="article__back"><a href="../index.html#blog">Back to all posts</a></p>
+  </div>
+</article>
+</main>
+<footer class="foot">
+  <div class="container foot__inner"><p class="foot__line">Thanks for reading.</p><p class="foot__sign">Mert</p></div>
+</footer>
+</body>
+</html>
